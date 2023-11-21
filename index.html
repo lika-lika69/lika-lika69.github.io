@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Happy birthday</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Click this card</h2>
+    <div class="body">
+      <!-- Card Container -->
+      <div class="birthdayCard">
+        <div class="cardFront">
+          <h3 class="happy">HAPPY BIRTHDAY!</h3>
+
+          <!-- Balloon Card -->
+          <div class="balloons">
+            <div class="balloonOne"></div>
+            <div class="balloonTwo"></div>
+            <div class="balloonThree"></div>
+            <div class="balloonFour"></div>
+          </div>
+        </div>
+
+        <!-- Text Wish -->
+        <div class="cardInside">
+          <h3 class="back">HAPPY BIRTHDAY!</h3>
+          <p contenteditable="true">Dilah,</p>
+          <p contenteditable="true">
+            Happy birthday!! Aku harap di ultah kamu yang ke 20
+            kamu jadi pribadi yang lebih baik lagi dan kurangin insecure nya
+          </p>
+          <p contenteditable="true" class="name">- Kachi</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Audio -->
+    <div>
+      <audio id="track" autoplay>
+        <source
+          src="music/Happy Birthday To You 🍰 Jazz ver.mp3"
+          type="audio/mpeg"
+        />
+      </audio>
+
+      <div id="player-container">
+        <div id="play-pause" class="play">Play</div>
+      </div>
+    </div>
+
+    <!-- Java Script -->
+    <script src="main.js"></script>
+  </body>
+</html>
